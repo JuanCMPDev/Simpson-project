@@ -20,7 +20,7 @@ const Simpson = () => {
 
   return (
     <div className="flex items-center justify-center w-full h-full flex-col">
-      <button className="focus:outline-none text-4xl mb-10 mt-10 text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 dark:focus:ring-yellow-900" onClick={handleFetchCharacters}>fetch</button>
+      <button className="focus:outline-none text-4xl mb-10 mt-10 text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 dark:focus:ring-yellow-900" onClick={handleFetchCharacters}>Traer personajes</button>
       {characters.length > 0 && (
         <div className="flex flex-row gap-10 justify-center">
           {characters.map((character, index) => (
